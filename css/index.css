@@ -1,0 +1,253 @@
+/* side */
+
+body{
+    transition: all 1s;
+}
+
+.pad-l{
+    padding-left: 165px;
+}
+
+.overlay{
+    background-color: #333;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.side{
+    top: 0px;
+    background-color: #fff;
+    width: 150px;
+    border-radius: 0px 45px 45px 0px;
+    box-shadow: 0px 0px 15px -10px black;
+    left: -135px;
+    transition: all 1s;
+}
+
+.open{
+    left: 0px !important;
+}
+
+.side .tog{
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    height: 40px;
+    width: 4px;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.side .logo{
+    height: 85px;
+    text-align: center;
+    line-height: 85px;
+}
+
+.side ul li{
+    margin: 0px 40px 25px;
+    border-radius: 20px !important;
+    cursor: pointer;
+    transition: all 1s;
+    position: relative;
+}
+
+.side ul li.active::after{
+    content: "";
+    position: absolute;
+    display: inline-block;
+    border: 10px solid;
+    border-color: transparent transparent transparent #37A3FE;
+    top: 50%;
+    right: -20px;
+    transform: translateY(-50%);
+    
+}
+
+
+
+.side ul li.active{
+    background-color: #37A3FE;
+}
+
+.side ul li.active span{
+    color: #fff;
+}
+
+.side ul img{
+    width: 30px;
+    padding: 5px;
+    box-sizing: border-box;
+    background: #eee;
+    border-radius: 50%;
+}
+.side ul span{
+    font-size: 12px;
+    color: #333;
+}
+
+
+/* navbar */
+
+nav .row{
+    border-bottom:1px solid #EEE ;
+}
+
+nav span{
+    font-size: 20px;
+}
+
+nav ul li input{
+    background-color: #E5E6EB;
+    background-image: url(../img/search.svg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+    padding-left: 30px;
+    outline: none;
+}
+
+nav ul li.bell{
+    width: 40px;
+    height: 40px;
+    box-shadow: 0px 0px 15px -10px black;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+nav ul li img.ava{
+    width: 40px;
+    height: 40px;
+}
+
+.sub-body .ide {
+    border-radius: 20px;
+}
+.sub-body .ide img{
+    width: 100px;
+}
+.sub-body .ide img.edit{
+    width: 20px;
+    background: #fff;
+    position: absolute;
+    top: 0px;
+    left: 55%;
+    box-shadow: 0px 0px 15px -10px black;
+    cursor: pointer;
+}
+
+.sub-body .ide > span{
+    background-color: #EBF7EE;
+    color: #8AC09F;
+    width: 100px;
+    display: inline-block;
+    height: 30px;
+    border-radius: 4px;
+    line-height: 30px;
+}
+
+.sub-body .person-info div {
+    width: 80%;
+    border-radius: 20px;
+}
+
+.sub-body .person-info h5 {
+    color: #333;
+    opacity: .8;
+    font-size: 16px;
+}
+
+.sub-body .one{
+    border-radius: 20px;
+}
+
+.sub-body .one .info{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    width: 15px;
+}
+
+.sub-body .one .num{
+    font-size: 40px;
+}
+
+.sub-body .one .arrow{
+    width: 20px;
+    background-color: #9EA2AD;
+    padding: 5px;
+    transform: rotate(-45deg);
+
+}
+.sub-body .one .pre{
+    font-size: 12px;
+}
+
+.sub-body .last{
+    border-radius: 20px;
+}
+
+.sub-body .last .my-nav{
+    border-bottom: 1px solid #eee;
+}
+
+.sub-body .last .my-nav ul li{
+    cursor: pointer;
+}
+
+.sub-body .last .my-nav ul li.active{
+    border-bottom: 1px solid #37A3FE;
+}
+
+.sub-body .last .option {
+    box-shadow: 0px 0px 15px -10px black;
+    width: 15%;
+    text-align: center;
+    height: 30px;
+    line-height: 29px;
+    cursor: pointer;
+}
+
+.sub-body .last .option img{
+    width: 20px;
+    padding: 5px;
+    background-color: #F0F1F5;
+}
+
+.sub-body .last .celles .cell:not(:last-of-type){
+    border-bottom: 1px solid #eee;
+}
+
+.sub-body .last .celles .cell .date h6,
+.sub-body .last .celles .cell .info h6,
+.sub-body .last .celles .cell .price h6{
+    font-size: 20px;
+}
+
+.sub-body .last .celles .cell .date span,
+.sub-body .last .celles .cell .info span,
+.sub-body .last .celles .cell .price span{
+    font-size: 12px;
+    color: #888;
+}
+
+.sub-body .last .celles .cell .state > span {
+    width: 100px;
+    height: 25px;
+    display: inline-block;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.sub-body .last .celles .cell .state > span span {
+    background: none;
+}
