@@ -222,24 +222,21 @@ nav ul li img.ava{
     background-color: #F0F1F5;
 }
 
-.sub-body .last .celles .cell:not(:last-of-type){
-    border-bottom: 1px solid #eee;
-}
 
-.sub-body .last .celles .cell .date h6,
-.sub-body .last .celles .cell .info h6,
-.sub-body .last .celles .cell .price h6{
+.sub-body .last table .date h6,
+.sub-body .last table .info h6,
+.sub-body .last table .price h6{
     font-size: 20px;
 }
 
-.sub-body .last .celles .cell .date span,
-.sub-body .last .celles .cell .info span,
-.sub-body .last .celles .cell .price span{
+.sub-body .last table .date span,
+.sub-body .last table .info span,
+.sub-body .last table .price span{
     font-size: 12px;
     color: #888;
 }
 
-.sub-body .last .celles .cell .state > span {
+.sub-body .last table .state > span {
     width: 100px;
     height: 25px;
     display: inline-block;
@@ -248,6 +245,6 @@ nav ul li img.ava{
     border-radius: 4px;
 }
 
-.sub-body .last .celles .cell .state > span span {
+.sub-body .last table .state > span span {
     background: none;
 }

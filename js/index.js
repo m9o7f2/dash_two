@@ -13,7 +13,7 @@ let side = document.querySelector(".side");
 })();
 
 (function(){
-    document.querySelectorAll(".cell .state span").forEach(el => {
+    document.querySelectorAll("table .state span").forEach(el => {
         if(el.textContent == "Cancelled" || el.textContent == "cancelled"){
             el.style.color = "#F66C25";
             el.style.backgroundColor = "#FAEBE3";
@@ -45,4 +45,4 @@ window.onresize = function(){
     }else{
         document.querySelector(".overlay").classList.add("d-none");
     }   
-}
+};

@@ -89,16 +89,16 @@
                     <h2 class="font-weight-bold py-3">Harriet Nunez</h2>
                     <span class="font-weight-bold">New clint</span>
                     <button type="button" class="btn btn-primary d-block mx-auto my-3 ">Add New Appointment</button>
-                    <div class="person-info text-left">
-                        <div class="px-3 py-2 mx-auto bg-light border mb-2">
+                    <div class="person-info text-left d-flex flex-column align-items-center">
+                        <div class="px-3 py-2 bg-light border mb-2">
                             <span>Email</span>
                             <h5>runilfsdir.gillian@hotmail.com</h4>
                         </div>
-                        <div class="px-3 py-2 mx-auto bg-light border mb-2">
+                        <div class="px-3 py-2 bg-light border mb-2">
                             <span>Gender</span>
                             <h5>Female</h4>
                         </div>
-                        <div class="px-3 py-2 mx-auto bg-light border mb-2">
+                        <div class="px-3 py-2 bg-light border mb-2">
                             <span>Alerts</span>
                             <h5>Allows Marketing Notifications</h4>
                         </div>
@@ -106,7 +106,6 @@
                 </div>
             </div>
             <div class="col-lg-8">
-                <div class="row">
                     <div class="col-lg">
                         <div class="row">
                             <div class="col-lg-4">
@@ -137,109 +136,111 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
                 </div>
-                <div class="col-lg">
-                    <div class="last bg-white mt-3 pt-4 px-5 ">
-                    <div class="my-nav">
-                        <ul class="list-unstyled my-auto">
-                            <li class="d-inline-block mr-3 py-3 active">
-                                Appoinments
-                            </li>
-                            <li class="d-inline-block py-3">
-                                Invoices
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="option my-3 rounded-pill">
-                        <div class="title">
-                            <span class="mr-2">All time</span>
-                            <img class="img-fluid rounded-pill" src="img/down-arrow.png" alt="">
-                        </div>
-                    </div>
-                    <div class="celles">
-                        <div class="cell py-2">
-                            <div class="row">
-                                <div class="col-lg-2">
-                                    <div class="date">
-                                        <h6 class="font-weight-bold my-auto">29</h6>
-                                        <span class="font-weight-bold">SEP</span>
+                    <div class="col-lg">  
+                        <div class="row">
+                        <div class="card border-0 last mt-3">
+
+                            <div class="card-body">
+                                <div class="my-nav">
+                                    <ul class="list-unstyled my-auto">
+                                        <li class="d-inline-block mr-3 py-3 active">
+                                            Appoinments
+                                        </li>
+                                        <li class="d-inline-block py-3">
+                                            Invoices
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="option my-3 rounded-pill">
+                                    <div class="title">
+                                        <span class="mr-2">All time</span>
+                                        <img class="img-fluid rounded-pill" src="img/down-arrow.png" alt="">
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
-                                    <div class="info">
-                                        <h6 class="font-weight-bold my-auto">plumbig</h6>
-                                        <span class="font-weight-bold">11:00-19:30</span>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 align-self-center">
-                                    <div class="state">
-                                        <span class="font-weight-bold">Cancelled</span>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 text-right">
-                                    <div class="price">
-                                        <h6 class="font-weight-bold my-auto">$50</h6>
-                                        <span class="font-weight-bold">$10/hr</span>
-                                    </div>
-                                </div>
+                                <table class="table">
+                                    <tbody>
+                                      <tr>
+                                        <th scope="row">
+                                            <div class="date">
+                                                <h6 class="font-weight-bold my-auto">29</h6>
+                                                <span class="font-weight-bold">SEP</span>
+                                            </div>
+                                        </th>
+                                        <td>
+                                            <div class="info">
+                                                <h6 class="font-weight-bold my-auto">plumbig</h6>
+                                                <span class="font-weight-bold">11:00-19:30</span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="state">
+                                                <span class="font-weight-bold">Cancelled</span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="price">
+                                                <h6 class="font-weight-bold my-auto">$50</h6>
+                                                <span class="font-weight-bold">$10/hr</span>
+                                            </div>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">
+                                            <div class="date">
+                                                <h6 class="font-weight-bold my-auto">15</h6>
+                                                <span class="font-weight-bold">Oct</span>
+                                            </div>
+                                        </th>
+                                        <td>
+                                            <div class="info">
+                                                <h6 class="font-weight-bold my-auto">Carpenting</h6>
+                                                <span class="font-weight-bold">13:45-15:30</span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="state">
+                                                <span class="font-weight-bold">Booked</span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="price">
+                                                <h6 class="font-weight-bold my-auto">$345</h6>
+                                                <span class="font-weight-bold">$45/hr</span>
+                                            </div>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">
+                                            <div class="date">
+                                                <h6 class="font-weight-bold my-auto">11</h6>
+                                                <span class="font-weight-bold">Nov</span>
+                                            </div>
+                                        </th>
+                                        <td>
+                                            <div class="info">
+                                                <h6 class="font-weight-bold my-auto">Painting</h6>
+                                                <span class="font-weight-bold">900-12:30</span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="state">
+                                                <span class="font-weight-bold">Done</span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="price">
+                                                <h6 class="font-weight-bold my-auto">$130</h6>
+                                                <span class="font-weight-bold">$55/hr</span>
+                                            </div>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
                             </div>
                         </div>
-                        <div class="cell py-2">
-                            <div class="row">
-                                <div class="col-lg-2">
-                                    <div class="date">
-                                        <h6 class="font-weight-bold my-auto">15</h6>
-                                        <span class="font-weight-bold">Oct</span>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="info">
-                                        <h6 class="font-weight-bold my-auto">Carpenting</h6>
-                                        <span class="font-weight-bold">13:45-15:30</span>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 align-self-center">
-                                    <div class="state">
-                                        <span class="font-weight-bold">Booked</span>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 text-right">
-                                    <div class="price">
-                                        <h6 class="font-weight-bold my-auto">$345</h6>
-                                        <span class="font-weight-bold">$45/hr</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="cell py-2">
-                            <div class="row">
-                                <div class="col-lg-2">
-                                    <div class="date">
-                                        <h6 class="font-weight-bold my-auto">11</h6>
-                                        <span class="font-weight-bold">Nov</span>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="info">
-                                        <h6 class="font-weight-bold my-auto">Painting</h6>
-                                        <span class="font-weight-bold">900-12:30</span>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 align-self-center">
-                                    <div class="state">
-                                        <span class="font-weight-bold">Done</span>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 text-right">
-                                    <div class="price">
-                                        <h6 class="font-weight-bold my-auto">$130</h6>
-                                        <span class="font-weight-bold">$55/hr</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                        
                     </div>
                 </div>
             </div>
